@@ -1,9 +1,9 @@
 function NavBar() {
      return (
           <div className="font-semibold mt-10 ">
-               <div className="flex items-center justify-between max-md:flex-col ">
+               <div className="flex items-center justify-between max-md:flex-col max-[250px]:pr-2">
                     <img src="./Portifolio.svg" alt="logo" className="mb-2" />
-                    <ul className="flex font-medium gap-4 text-lg max-sm:flex-col max-sm:pb-4 max-[300px]:text-sm max-[300px]:pt-4 mb-4">
+                    <ul className="flex font-medium gap-4 text-lg max-sm:flex-col max-sm:pb-4 max-[300px]:text-sm max-[300px]:pt-4 mb-4 ">
                          <li>
                               <a
                                    href="#experiencia"
