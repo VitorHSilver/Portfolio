@@ -3,9 +3,9 @@ import vitor from './vitor.png';
 function Introduction() {
      return (
           <>
-               <main class=" grid grid-cols-custom-layout max-[800px]:grid-cols-2 items-center justify-stretch max-[250px]:grid-cols-1">
+               <main class=" grid grid-cols-custom-layout max-[800px]:grid-cols-2 items-center justify-stretch max-[250px]:grid-cols-1 max-md:gap-x-9">
                     <img src={vitor} alt="Vitor" className="w-64 max-smallscreen:hidden max-[250px]:hidden" />
-                    <div className="flex flex-col  gap-2  leading-3  max-smartphone:p-2 min-[400px]:pl-2  ">
+                    <div className="flex flex-col  gap-2  leading-3  max-smartphone:p-2 min-[400px]:pl-2   ">
                          <p className="text-base font-semibold lg:text-lg md:text-sm sm:text-2x1 ">Olá, Eu Sou!</p>
                          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-crocoGreen font-bold max-smartphone:text-2xl max-smallscreen:text-1xl ">
                               Vitor Henrique
