@@ -12,10 +12,6 @@ ul{
   font-family: 'Poppins', sans-serif;
 }
 
-#indroducao{
- display: grid;
- grid-template-columns: 1fr 2fr;
-}
 /* Hover links */
 
 

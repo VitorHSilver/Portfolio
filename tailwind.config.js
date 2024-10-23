@@ -11,6 +11,7 @@ module.exports = {
                },
                screens: {
                     smartphone: '400px',
+                    smallscreen: '200px',
                },
           },
      },
