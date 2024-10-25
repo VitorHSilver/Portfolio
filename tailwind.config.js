@@ -9,6 +9,9 @@ module.exports = {
                gridTemplateColumns: {
                     'custom-layout': '1fr 2fr',
                },
+               // gridRespoTemplateColumns: {
+               //      'auto-fit-minmax': 'repeat(auto-fit, minmax(300px, 1fr))',
+               // },
                screens: {
                     smartphone: '400px',
                     smallscreen: '200px',
