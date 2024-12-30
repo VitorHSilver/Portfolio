@@ -1,14 +1,19 @@
 import './App.css';
-import Experience from './Experience';
-import Introduction from './Introduction';
 import NavBar from './navBar';
+import Introduction from './introduction';
+import Experience from './experience';
+import Formation from './formation';
+import Contact from './contact';
 
+import './index.css'; // Importa o arquivo CSS do Tailwind
 function App() {
      return (
           <>
                <NavBar />
-               <Introduction/>
+               <Introduction />
                <Experience />
+               <Formation />
+               <Contact />
           </>
      );
 }

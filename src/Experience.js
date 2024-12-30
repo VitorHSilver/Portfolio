@@ -3,47 +3,53 @@ import React from 'react';
 const skills = [
      {
           name: 'HTML/CSS',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
      {
           name: 'JavaScript',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
      {
           name: 'Vue.js',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
      {
           name: 'Node.js',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
-     { name: 'PHP', style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent' },
+     {
+          name: 'PHP',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+     },
      {
           name: 'Laravel',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
      {
           name: 'MySQL',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
      {
           name: 'Power BI',
-          style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
      },
-     { name: 'Git', style: 'bg-gray-300/50 text-black py-1 w-28 rounded-md text-center max-smartphone:bg-transparent' },
+     {
+          name: 'Git',
+          style: 'bg-gray-300/50 text-black font-semibold py-1 w-28 rounded-md text-center max-smartphone:bg-transparent',
+     },
 ];
-function Experience() {
+function experience() {
      return (
           <section
                aria-label="#experiencia"
-               id="#experiencia"
-               className="grid-cols-custom-layout mt-64 max-smartphone:mt-24  relative mb-40  max-smallscreen:mt-24  "
+               id="experiencia"
+               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-24 py-32 "
           >
-               <h2 className="text-9xl font-semibold text-gray-300 mb-56 max-smallscreen:mb-[30rem] max-md:text-8xl max-sm:text-7xl max-smartphone:text-4xl max-smallscreen:text-2xl ">
+               <h2 className="text-9xl font-semibold text-gray-300 mb-56 max-smallscreen:mb-[30rem] max-md:text-8xl max-sm:text-7xl max-smartphone:text-4xl max-smallscreen:text-2xl">
                     Experiência
                </h2>
                <div className="w-1/2 flex text-right mb-60 absolute right-4 top-40 max-md:w-full max-md:text-left max-md:pl-4 max-sm:w-full max-sm:top-32 max">
-                    <p className="leading-relaxed max-w-prose relative mb-4 mt-6 max-smallscreen:text-sm max-smallscreen:leading-relaxed ">
+                    <p className="leading-relaxed max-w-prose relative  mt-32 max-smallscreen:text-sm max-smallscreen:leading-relaxed subpixel-antialiased ">
                          Minha experiência inclui o desenvolvimento de aplicações no back-end utilizando tecnologias
                          como
                          <strong> PHP</strong>,<strong> Laravel </strong> e <strong>Node.js</strong>. No front-end,
@@ -55,7 +61,7 @@ function Experience() {
                <span className="inline-block mt-8 text-sm text-gray-500  max-smartphone:mt-96 max-smartphone:mt">
                     2024
                </span>
-               <div className="bg-slate-100 max-smallscreen:bg-transparent max-smallscreen:shadow-none grid grid-cols-2 p-6 shadow-lg max-lg:w-full mr-1 gap-x-1 absolute max-md:w-full pl-10 max-smartphone:grid-cols-1 max-md:gap-4 ">
+               <div className="max-smallscreen:bg-transparent max-smallscreen:shadow-none grid grid-cols-2 p-6 shadow-lg max-lg:w-full mr-1 gap-x-1 absolute max-md:w-full pl-10 max-smartphone:grid-cols-1 max-md:gap-4 ">
                     <h3 className="text-2xl font-semibold">Exata Tech</h3>
                     <span className="block text-sm font-semibold text-gray-900 mb-4 mt-1 uppercase text-center">
                          Estagiário em desenvolvimento web
@@ -65,10 +71,9 @@ function Experience() {
                          das aplicações, o que contribuiu para a otimização e manutenção dos sistemas.
                     </p>
 
-                    {/* Melhorando o código */}
                     <ul
                          id="thumb-grid"
-                         className="grid grid-cols-3 justify-items-center gap-2 shadow-md  text-sm text-gray-900  max-smartphone:shadow-none max-smartphone:bg-transparent p-3 rounded max-smallscreen:text-xs  "
+                         className="grid grid-cols-3 justify-items-center gap-2 text-sm text-gray-900 max-smartphone:bg-transparent p-3 rounded max-smallscreen:text-xs  "
                     >
                          {skills.map((skill, index) => (
                               <li key={index} className={skill.style}>
@@ -80,4 +85,4 @@ function Experience() {
           </section>
      );
 }
-export default Experience;
+export default experience;

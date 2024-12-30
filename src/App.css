@@ -12,6 +12,10 @@ body {
 ul{
   font-family: 'Poppins', sans-serif;
 }
+#formacao{
+ width:100%;
+ background-color: black;
+}
 @media (max-width:1200px){
   #thumb-grid{
       display: grid;

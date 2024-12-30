@@ -5,6 +5,7 @@ module.exports = {
           extend: {
                colors: {
                     crocoGreen: '#495D3A',
+                    bgBlack: '#090909',
                },
                gridTemplateColumns: {
                     'custom-layout': '1fr 2fr',
