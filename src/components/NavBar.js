@@ -33,8 +33,17 @@ function NavBar() {
                          </li>
                          <li>
                               <a
-                                   href="#contato"
-                                   onClick={(e) => handleScroll(e, 'contato')}
+                                   href="#projects"
+                                   onClick={(e) => handleScroll(e, 'projects')}
+                                   className="relative inline-block px-2 py-2 no-underline tracking-wider after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-[#495D3A] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 transition ease-in hover:scale-110"
+                              >
+                                   Projetos
+                              </a>
+                         </li>
+                         <li>
+                              <a
+                                   href="#contact"
+                                   onClick={(e) => handleScroll(e, 'contact')}
                                    className="relative inline-block px-2 py-2 no-underline tracking-wider after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-[#495D3A] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 transition ease-in hover:scale-110"
                               >
                                    Contato

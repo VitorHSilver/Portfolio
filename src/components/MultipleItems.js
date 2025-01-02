@@ -1,37 +1,78 @@
 import React from 'react';
 import Slider from 'react-slick';
+import Report from './../assets/Report.png';
+import Receita from './../assets/Receita.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import report from './../assets/Report.png';
 
-function MultipleItems() {
-     const settings = {
+function Responsive() {
+     var settings = {
           dots: true,
-          infinite: true,
+          infinite: false,
           speed: 500,
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          initialSlide: 0,
+          responsive: [
+               {
+                    breakpoint: 1024,
+                    settings: {
+                         slidesToShow: 3,
+                         slidesToScroll: 3,
+                         infinite: true,
+                         dots: true,
+                    },
+               },
+               {
+                    breakpoint: 600,
+                    settings: {
+                         slidesToShow: 2,
+                         slidesToScroll: 2,
+                         initialSlide: 2,
+                    },
+               },
+               {
+                    breakpoint: 480,
+                    settings: {
+                         slidesToShow: 1,
+                         slidesToScroll: 1,
+                    },
+               },
+          ],
      };
      return (
           <div className="slider-container">
                <Slider {...settings}>
-                    <div className='bg-gray-300/20 flex justify-center'>
-                         <a href="https://github.com/VitorHSilver/order-report">
-                         <h5 className=''>Report</h5>
+                    <div className="card  p-6 m-2">
+                         <a href="https://github.com/VitorHSilver/order-report" className="text-center w-full">
+                              <h5 className="text-lg font-semibold mb-2">ReportOrder</h5>
                               <img
-                                   className="w-24 h-24 bg-gray-400 border border-black rounded-lg transition ease-in hover:scale-95 "
-                                   src={report}
-                                   alt="Email"
-                              ></img>
+                                   className="w-34 h-24 bg-gray-400 transition ease-in hover:scale-95 mb-2 mx-auto"
+                                   src={Report}
+                                   alt="Report"
+                              />
+                              <div className="flex flex-col gap-2">
+                                   <button className="bg-emerald-900 text-white p-2 rounded">
+                                        <a href="https://github.com/VitorHSilver/AnalysisByManufacturer">Github</a>
+                                   </button>
+                                   <button className="bg-blue-500 text-white p-2 rounded">Hospedado</button>
+                              </div>
                          </a>
                     </div>
-                    <div>
-                         <a href="https://github.com/VitorHSilver/order-report">
+                    <div className="card  p-6 m-2">
+                         <a href="https://github.com/VitorHSilver/order-report" className="text-center w-full">
+                              <h5 className="text-lg font-semibold mb-2">Receita</h5>
                               <img
-                                   className="ml-2 w-24 h-24 bg-gray-400 border border-black rounded-lg transition ease-in hover:scale-95"
-                                   src={report}
-                                   alt="Email"
-                              ></img>
+                                   className="w-34 h-24 bg-gray-400 transition ease-in hover:scale-95 mb-2 mx-auto"
+                                   src={Receita}
+                                   alt="Receita"
+                              />
+                              <div className="flex flex-col gap-2">
+                                   <button className="bg-emerald-900 text-white p-2 rounded">
+                                        <a href="https://github.com/VitorHSilver/AnalysisByManufacturer">Github</a>
+                                   </button>
+                                   <button className="bg-blue-500 text-white p-2 rounded">Hospedado</button>
+                              </div>
                          </a>
                     </div>
                     <div>
@@ -52,12 +93,9 @@ function MultipleItems() {
                     <div>
                          <h3>8</h3>
                     </div>
-                    <div>
-                         <h3>9</h3>
-                    </div>
                </Slider>
           </div>
      );
 }
 
-export default MultipleItems;
+export default Responsive;
