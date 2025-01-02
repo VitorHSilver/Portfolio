@@ -1,12 +1,9 @@
 import React from 'react';
-import git from './../assets/github-logo.png';
-import linkedin from './../assets/logotipo-do-linkedin.png';
-import mail from './../assets/mail.png';
 import MultipleItems from './MultipleItems';
 
 function Project() {
      return (
-          <section id="projects" className="flex flex-col items-center py-20 max-smallscreen:py-10  max-smartphone:py-0">
+          <section id="projects" className="flex flex-col items-center py-20 max-smallscreen:py-10 ">
                <h2 className="text-9xl font-semibold text-gray-300 mb-12 max-smallscreen:mb-[0rem] max-md:text-7xl max-sm:text-6xl max-smartphone:text-4xl max-smallscreen:text-4xl max-sm:mb-0 max-sm:mt-20 max-smallscreen:mt-64">
                     Projetos
                </h2>
