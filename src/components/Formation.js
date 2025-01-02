@@ -4,10 +4,10 @@ function Formation() {
      return (
           <section
                id="formacao"
-               className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[30rem] max-sm:py-0 "
+               className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[40rem] max-sm:py-0"
           >
                <div className="p-8">
-                    <h2 className="font-bold text-9xl mb-12 max-smallscreen:mb-[30rem] max-md:text-6xl max-sm:text-5xl max-sm:mt-24 max-smartphone:text-4xl max-smallscreen:text-2xl">
+                    <h2 className="font-bold text-9xl mb-12 max-smallscreen:mb-[10rem]  max-smallscreen: max-md:text-6xl max-sm:text-5xl max-sm:mt-24 max-smartphone:text-4xl max-smallscreen:text-2xl">
                          Formação
                     </h2>
                     <div className="flex justify-end mt-4">
