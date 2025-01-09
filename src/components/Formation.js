@@ -2,16 +2,13 @@ import React from 'react';
 
 function Formation() {
      return (
-          <section
-               id="formacao"
-               className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[40rem] max-sm:py-0"
-          >
+          <section id="formacao" className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[40rem] max-sm:py-0">
                <div className="p-8">
                     <h2 className="font-bold text-9xl mb-12 max-smallscreen:mb-[10rem]  max-smallscreen: max-md:text-6xl max-sm:text-5xl max-sm:mt-24 max-smartphone:text-4xl max-smallscreen:text-4xl">
                          Formação
                     </h2>
                     <div className="flex justify-end mt-4">
-                         <p className="text-gray-50 tracking-wider subpixel-antialiased pr-2 leading-normal mt-12  max-sm:mt-4">
+                         <p className="text-gray-100/75 tracking-wider subpixel-antialiased pr-2 leading-normal mt-12  max-sm:mt-4">
                               Minha formação acadêmica foi o <strong>Tecnólogo</strong> feito na <br></br>Universidade
                               Municipal de São Caetano do Sul (<strong>USCS</strong>). <br></br>
                               Além disso me mantenho sempre atualizado com cursos intensivos online.
@@ -35,7 +32,9 @@ function Formation() {
                          </div>
                     </div>
                     <div className="mt-24">
-                         <h3 className="text-gray-100/50 text-5xl font-semibold text-center max-sm:mb-10 max-smallscreen:text-4xl">Cursos</h3>
+                         <h3 className="text-gray-100/50 text-5xl font-semibold text-center max-sm:mb-10 max-smallscreen:text-4xl">
+                              Cursos
+                         </h3>
                          <div className="flex flex-col items-center mt-8 text-center">
                               <div className="grid grid-cols-2 gap-4 w-3/4">
                                    <p className="text-gray-100">UX Design & UI Design</p>

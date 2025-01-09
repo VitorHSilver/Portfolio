@@ -18,48 +18,58 @@ function Responsive() {
                img: Report,
                urlGit: 'https://github.com/VitorHSilver/order-report',
                url: '#',
+               description: 'Projeto desktop de inserção de dados para relatorio de venda.',
           },
           {
                name: 'NewsTech',
                img: NewsTech,
                urlGit: 'https://github.com/VitorHSilver/NewsTech',
                url: '#',
+               description: 'WebSite de noticias tech utilizando VueJS e Laravel11 consumindo API externas.',
           },
           {
                name: 'apiWithGemini',
                img: Api,
                urlGit: 'https://github.com/VitorHSilver/apiWithGemini',
                url: '#',
+               description:
+                    'Api com conexão ao banco de dados, podendo inserir imagens com descrição feita via IA Gemini',
           },
           {
                name: 'ReceitaBr',
                img: Receita,
                urlGit: 'https://github.com/VitorHSilver/ReceitaBr',
                url: 'https://receita-br.vercel.app/index.html',
+               description: 'Um site reunindo de receitas simples de forma minimalista e objetiva. Apenas com CSS',
           },
           {
                name: 'TSeek',
                img: Tseek,
                urlGit: 'https://github.com/TseekPIM/tseek',
                url: '#',
+               description: 'Projeto academico de TCC que age intermediando um player a encontrar uma equipe E-Sport.',
           },
           {
-               name: 'AnalyByManufact',
-               img: py, // Adicione a imagem do projeto 6 aqui
+               name: 'AnalysManufact',
+               img: py,
                urlGit: 'https://github.com/VitorHSilver/AnalysisByManufacturer',
                url: '#',
+               description:
+                    'projeto de análise de dados de vendas de carros.lê dados de um Google Sheets e realiza algumas operações de análise',
           },
           {
                name: 'MenuMobile',
-               img: webSite, // Adicione a imagem do projeto 7 aqui
+               img: webSite,
                urlGit: 'https://vitorhsilver.github.io/Site/',
                url: 'https://vitorhsilver.github.io/webSiteMobile/',
+               description: 'Pagina simples mostrando o comportamento do menuMobile',
           },
           {
                name: 'Project 8',
-               img: '', // Adicione a imagem do projeto 8 aqui
+               img: '',
                urlGit: '#',
                url: '#',
+               description: 'Em breve será adicionado um novo projeto aqui',
           },
      ];
      var settings = {
@@ -106,6 +116,9 @@ function Responsive() {
                          >
                               <a href={project.urlGit} className="text-center w-full" target="_blank" rel="noreferrer">
                                    <h5 className="text-lg font-semibold mb-2 text-center">{project.name}</h5>
+                                   <p className="text-xs text-jusfify pb-2 font-medium itali h-24">
+                                        {project.description}
+                                   </p>
                                    {project.img && (
                                         <img
                                              className="w-34 h-24 transition ease-in hover:scale-95 mb-2  mx-auto"
