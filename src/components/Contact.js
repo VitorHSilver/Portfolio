@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import git from './../assets/github-logo.png';
 import linkedin from './../assets/logotipo-do-linkedin.png';
 import mail from './../assets/mail.png';
@@ -8,21 +9,34 @@ function Contact() {
      const [name, setName] = useState('');
      const [email, setEmail] = useState('');
      const [message, setMessage] = useState('');
-     const [subject, setSubject] = useState('Contato de Recrutador');
 
      const handleSubmit = (e) => {
           e.preventDefault();
-          
+
           const templateParams = {
                from_name: name,
                from_email: email,
                message: message,
           };
 
-          setName('');
-          setEmail('');
-          setSubject('Contato de Recrutador');
-          setMessage('');
+          emailjs
+               .send(
+                    process.env.REACT_APP_EMAILJS_SERVICE_ID,
+                    process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+                    templateParams,
+                    process.env.REACT_APP_EMAILJS_USER_ID
+               )
+               .then(
+                    (response) => {
+                         console.log('SUCCESS!', response.status, response.text);
+                         setName('');
+                         setEmail('');
+                         setMessage('');
+                    },
+                    (error) => {
+                         console.log('FAILED...', error);
+                    }
+               );
      };
 
      return (
