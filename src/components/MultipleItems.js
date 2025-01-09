@@ -112,11 +112,11 @@ function Responsive() {
                     {projets.map((project, index) => (
                          <div
                               key={index}
-                              className="card bg-gray-400/10 max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border border-gray-50 rounded-lg p-6 m-2"
+                              className="card bg-gray-400/10 max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border border-gray-50 rounded-lg p-6 m-2 max-smartphone:bg-gray-300/10 "
                          >
                               <a href={project.urlGit} className="text-center w-full" target="_blank" rel="noreferrer">
-                                   <h5 className="text-lg font-semibold mb-2 text-center">{project.name}</h5>
-                                   <p className="text-xs text-jusfify pb-2 font-medium itali h-24">
+                                   <h5 className="text-lg font-semibold mb-2 text-center max-smallscreen:text-3xl">{project.name}</h5>
+                                   <p className="text-xs text-jusfify py-4 font-medium itali h-24 max-smallscreen:text-lg">
                                         {project.description}
                                    </p>
                                    {project.img && (
@@ -126,12 +126,12 @@ function Responsive() {
                                              alt={project.name}
                                         />
                                    )}
-                                   <div className="flex flex-col gap-2 w-full">
+                                   <div className="flex flex-col gap-2 w-full max-smartphone:w-1/3 m-auto ">
                                         <a
                                              href={project.urlGit}
                                              target="_blank"
                                              rel="noreferrer"
-                                             className="bg-emerald-600 hover:bg-emerald-800 transition ease-in-out duration-700   hover:scale-105 text-white p-2 rounded text-center"
+                                             className="bg-emerald-600 hover:bg-emerald-800 transition ease-in-out duration-700   hover:scale-105 text-white p-2 rounded text-center max-smartphone:mt-4"
                                         >
                                              Github
                                         </a>
@@ -140,7 +140,7 @@ function Responsive() {
                                                   href={project.url}
                                                   target="_blank"
                                                   rel="noreferrer"
-                                                  className="bg-blue-500 text-white p-2 rounded text-center"
+                                                  className="p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
                                              >
                                                   Site
                                              </a>
