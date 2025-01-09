@@ -8,7 +8,7 @@ function Project() {
                     Projetos
                </h2>
                <div>
-                    <div className=" max-w-2xl mt-6 py-28 max-smallscreen:py-10 max-sm:mt-0 max-smallscreen:p-10 max-md:p-10">
+                    <div className="max-w-2xl mt-6 py-28 max-smallscreen:py-10 max-sm:mt-0 max-smallscreen:p-10 max-md:p-10">
                          <MultipleItems />
                     </div>
                </div>

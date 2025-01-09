@@ -11,7 +11,7 @@ function Introduction() {
                               Vitor Henrique
                          </h1>
                          <h1 className="font-bold text-6xl max-sm:text-5xl max-smartphone:2xl:">
-                              Desenvolvedor<br></br>Back-End
+                              Desenvolvedor<br></br>Web
                          </h1>
                     </div>
                </main>
