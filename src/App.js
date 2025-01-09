@@ -7,6 +7,7 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import './index.css'; // Importa o arquivo CSS do Tailwind
 import Footer from './components/Footer';
+import ScrollButton from './components/ScrollButton';
 function App() {
      return (
           <>
@@ -17,6 +18,7 @@ function App() {
                <Project />
                <Contact />
                <Footer />
+               <ScrollButton />
           </>
      );
 }
