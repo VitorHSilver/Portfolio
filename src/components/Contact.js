@@ -92,20 +92,20 @@ function Contact() {
                          <input
                               type="text"
                               placeholder="Nome"
-                              className="p-2 border border-gray-300 rounded-md"
+                              className="p-2 border border-gray-300 rounded-md bg-transparent"
                               value={name}
                               onChange={(e) => setName(e.target.value)}
                          />
                          <input
                               type="email"
                               placeholder="Email"
-                              className="p-2 border border-gray-300 rounded-md"
+                              className="p-2 border border-gray-300 rounded-md bg-transparent"
                               value={email}
                               onChange={(e) => setEmail(e.target.value)}
                          />
                          <textarea
                               placeholder="Mensagem"
-                              className="p-2 border border-gray-300 rounded-md"
+                              className="p-2 border border-gray-300 rounded-md bg-transparent"
                               rows="4"
                               value={message}
                               onChange={(e) => setMessage(e.target.value)}
