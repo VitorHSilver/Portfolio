@@ -119,7 +119,7 @@ function Responsive() {
                                    <h5 className="text-lg font-semibold mb-2 text-center max-smallscreen:text-3xl">
                                         {project.name}
                                    </h5>
-                                   <p className="text-xs text-jusfify py-4 font-medium itali h-24 max-smallscreen:text-lg">
+                                   <p className="text-xs text-jusfify py-4 font-medium itali h-28 max-smallscreen:text-lg">
                                         {project.description}
                                    </p>
                                    {project.img && (

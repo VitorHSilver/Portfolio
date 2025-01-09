@@ -52,13 +52,13 @@ function experience() {
           <section
                aria-label="#experience"
                id="experience"
-               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center"
+               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32"
           >
-               <h2 className="text-9xl font-semibold text-gray-300 mb-56 max-smartphone:mb-[8rem] max-md:text-8xl max-sm:text-7xl max-smartphone:text-4xl max-smallscreen:text-6xl">
+               <h2 className="text-9xl  max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-56 max-smartphone:mb-[8rem] max-md:text-8xl  max-md:pl-2">
                     Experiência
                </h2>
-               <div className="w-1/2 flex text-right mb-60 absolute right-4 top-40 max-md:w-full max-md:text-left max-md:pl-4 max-sm:w-full max-sm:top-36 max max-smallscreen:left-10">
-                    <p className="leading-relaxed max-w-prose relative  mt-32 max-smallscreen:text-base max-smallscreen:leading-relaxed subpixel-antialiased max-smallscreen:text-start max-smallscreen:mt-0 max-smallscreen:base ">
+               <div className="w-1/2 flex text-right mb-60 absolute right-4 top-20 max-md:w-full max-md:text-left max-md:pl-4 max-sm:w-full max-sm:top-32 max max-smallscreen:left-10 max-md:top-24">
+                    <p className="leading-relaxed max-w-prose relative  mt-32 max-smallscreen:text-base max-smallscreen:leading-relaxed subpixel-antialiased max-smallscreen:text-start max-smallscreen:mt-0 max-smallscreen:base max-md:pl-4">
                          Minha experiência inclui o desenvolvimento de aplicações no back-end utilizando tecnologias
                          como
                          <strong> PHP</strong>,<strong> Laravel </strong> e <strong>Node.js</strong>. No front-end,
@@ -67,10 +67,10 @@ function experience() {
                          <strong> Power BI</strong>, onde desenvolvi e mantive relatórios e dashboards interativos.
                     </p>
                </div>
-               <span className="inline-block mt-8 text-sm text-gray-500  max-smartphone:mt-96 max-smallscreen:text-xl max-smallscreen:mt-10">
+               <span className="inline-block mt-16 text-sm pl-4 text-gray-500  max-smartphone:mt-96 max-smallscreen:text-xl max-smallscreen:mt-10">
                     2024
                </span>
-               <div className="max-smallscreen:bg-transparent max-smallscreen:shadow-none grid grid-cols-2 p-6 shadow-lg max-lg:w-full mr-1 gap-x-1 absolute max-md:w-full pl-10 max-smartphone:grid-cols-1 max-md:gap-4">
+               <div className="max-smallscreen:bg-transparent max-smallscreen:shadow-none grid grid-cols-2 p-6 shadow-lg max-lg:w-full mr-1 gap-x-1 absolute max-lg:mt-[3rem] max-md:w-full pl-10 max-smartphone:grid-cols-1 max-md:gap-4">
                     <h3 className="text-2xl font-semibold">Exata Tech</h3>
                     <span className="block text-sm font-semibold text-gray-900 mb-4 mt-1 uppercase text-center">
                          Estagiário em desenvolvimento web

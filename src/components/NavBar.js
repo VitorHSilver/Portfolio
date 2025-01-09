@@ -32,7 +32,7 @@ function NavBar() {
                          <li>
                               <a
                                    href="#experience"
-                                   onClick={(e) => handleScroll(e, 'experiencia')}
+                                   onClick={(e) => handleScroll(e, 'experience')}
                                    className="relative inline-block px-2 py-2 no-underline tracking-wider after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:h-0.5 after:w-0 after:bg-[#495D3A] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 transition ease-in hover:scale-110 max-smartphone:text-xl "
                               >
                                    Experiência

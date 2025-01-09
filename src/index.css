@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#bloco1 {
+     position: relative;
+}
+#bloco1-item::before {
+     content: '';
+     display: block;
+     width: 10px;
+     height: 6px;
+     background: linear-gradient(#93b8ad, #6ee7b7);
+     position: absolute;
+     top: 50%;
+     left: -6px;
+     border-radius: 20%;
+}
+#bloco2 {
+     position: relative;
+}
+#bloco2-item::before {
+     content: '';
+     display: block;
+     width: 10px;
+     height: 6px;
+     background: linear-gradient(#ecfdf5, #6ee7b7);
+     position: absolute;
+     top: 50%;
+     right: -6px;
+     border-radius: 20%;
+}

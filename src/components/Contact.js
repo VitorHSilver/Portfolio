@@ -45,7 +45,7 @@ function Contact() {
                className="grid grid-cols-1 md:grid-cols-2 items-center py-28 max-smartphone:py-20 max-smartphone:flex flex-col gap-10  max-smallscreen:mt-4"
           >
                <div>
-                    <h2 className="text-9xl font-semibold text-gray-300 mb-12  max-smallscreen:mb-[2rem] max-smartphone:text-4xl max-md:text-center max-md:text-7xl max-sm:mb-0 max-sm:mt-20 max-smallscreen:text-center max-smartphone:text-center max-smallscreen:text-6xl ">
+                    <h2 className="text-9xl max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-12  max-smallscreen:mb-[2rem] max-smartphone:text-4xl max-md:text-center max-md:text-7xl max-sm:mb-0 max-sm:mt-20 max-smallscreen:text-center max-smartphone:text-center">
                          Contato
                     </h2>
                     <div className="flex justify-evenly w-full max-w-md pt-4 gap-6  max-md:py-8 max-smallscreen:py-4 max-md:m-auto ">
@@ -70,7 +70,7 @@ function Contact() {
                                    alt="Email"
                               ></img>
                          </a>
-                         <a   
+                         <a
                               href="./../assets/Vitor_henrique_da_Silva_2025.pdf"
                               download="Vitor_Henrique_da_Silva_Curriculo.pdf"
                               target="_blank"
@@ -85,7 +85,7 @@ function Contact() {
                     </div>
                </div>
                <div>
-                    <h1 className="text-5xl font-semibold text-gray-300 mb-4 max-md:text-center  max-smallscreen:text-center  max-smallscreen:m-4">
+                    <h1 className="text-5xl font-semibold text-gray-300 mb-4 max-md:text-center  max-smallscreen:text-center  max-smallscreen:m-4 max-lg:text-6xl">
                          Formulário
                     </h1>
                     <form className="flex flex-col gap-4 max-sm:p-8 max-md:p-4" onSubmit={handleSubmit}>
