@@ -3,7 +3,7 @@ import React from 'react';
 function Formation() {
      return (
           <section
-               id="formacao"
+               id="formation"
                className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[40rem] max-sm:py-0 max-smartphone:mt-[32rem] max-smallscreen:py-0 max-smallscreen:mt-[20rem]  max-smartphone:p-6"
           >
                <div className="p-8">
@@ -17,22 +17,22 @@ function Formation() {
                               Além disso me mantenho sempre atualizado com cursos intensivos online.
                          </p>
                     </div>
-                    <div className="flex justify-around mt-24 max-lg:gap-1 max-sm:gap-2  max-[smartphone]:gap-1 max-smartphone:grid">
-                         <div className="grid gap-y-4 bg-bgBlack rounded-lg p-3 text-center max-sm:border border-gray-50/10 max-md:border max-sm:shadow-none    shadow-sm shadow-slate-50/50  hover:shadow-emerald-300  transition duration-1000 ease-in">
-                              <h4 className="uppercase text-center text-gray-100/25">Tecnólogo</h4>
+                    <div className="flex justify-around mt-24 max-lg:gap-1 max-sm:gap-2  max-[smartphone]:gap-1 max-smartphone:grid max-md:gap-2 max-md: before:content-['=>'] before:content-center">
+                         <div className="grid gap-y-4 bg-bgBlack rounded-lg p-3 text-center max-sm:border border-gray-50/10 max-md:border max-sm:shadow-none   shadow-sm shadow-slate-50/50  hover:shadow-emerald-300 transition duration-1000 ease-in">
+                              <h4 className="uppercase text-xs text-start text-gray-100/25">Tecnólogo</h4>
                               <p className="text-gray-100 max-smartphone:text-xl">
                                    Análise e desenvolvimento de sistemas
                               </p>
                               <p className="text-gray-100/50">
-                                   Universidade Municipal de São Caetano do Sul <br></br> (USCS)
+                                   Universidade Municipal de São Caetano do Sul <br></br> (2024 - USCS)
                               </p>
                          </div>
 
-                         <div className="grid gap-y-4 bg-bgBlack rounded-lg p-3 text-center max-sm:border border-gray-50/10 max-md:border max-sm:shadow-none  max-smartphone:mt-4 shadow-sm shadow-slate-50/50  hover:shadow-emerald-300  transition duration-1000 ease-in">
-                              <h4 className="uppercase text-center text-gray-100/25">Técnico</h4>
+                         <div className="grid gap-y-4  bg-bgBlack rounded-lg p-3 text-center max-sm:border border-gray-50/10 max-md:border max-sm:shadow-none  max-smartphone:mt-4 shadow-sm shadow-slate-50/50  hover:shadow-emerald-300  transition duration-1000 ease-in">
+                              <h4 className="uppercase text-xs text-start text-gray-100/25">Técnico</h4>
                               <p className="text-gray-100 max-smartphone:text-xl">Técnico em informática</p>
                               <p className="text-gray-100/50">
-                                   Serviço Nacional de Aprendizagem Comercial<br></br> (SENAC)
+                                   Serviço Nacional de Aprendizagem Comercial<br></br> (2022 - SENAC)
                               </p>
                          </div>
                     </div>
@@ -42,11 +42,13 @@ function Formation() {
                          </h3>
                          <div className="flex flex-col items-center mt-8 text-center ">
                               <div className="grid grid-cols-2 gap-4 w-3/4">
-                                   <p className="text-gray-100 max-smartphone:text-start">UX Design & UI Design</p>
+                                   <p className="text-gray-100 max-smartphone:text-start max-md:text-start">
+                                        UX Design & UI Design
+                                   </p>
                                    <p className="max-smartphone:text-end">34h</p>
                               </div>
                               <div className="grid grid-cols-2 gap-4 w-3/4 mt-4 max-sm:mb-24">
-                                   <p className="text-gray-100 max-smartphone:text-start">
+                                   <p className="text-gray-100 max-smartphone:text-start max-md:text-start">
                                         AWS Academy Cloud Foundations
                                    </p>
                                    <p className="max-smartphone:text-end">20h</p>

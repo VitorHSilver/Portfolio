@@ -3,7 +3,7 @@ import vitor from './../assets/vitor.png';
 function Introduction() {
      return (
           <>
-               <main class="py-16 grid grid-cols-custom-layout max-[800px]:grid-cols-2 items-center justify-stretch max-[250px]:grid-cols-1 max-md:gap-x-9 max-smallscreen:text-center">
+               <main class="py-16 grid grid-cols-custom-layout max-[800px]:grid-cols-2 items-center justify-stretch max-[250px]:grid-cols-1 max-md:gap-x-9  max-smartphone:text-center">
                     <img src={vitor} alt="Vitor" className="w-64 max-smallscreen:hidden max-[250px]:hidden" />
                     <div className="flex flex-col  gap-2  leading-3  max-smartphone:p-2 min-[400px]:pl-2">
                          <p className="text-base mb-2 font-semibold lg:text-lg md:text-sm sm:text-2x1 max-smallscreen:text-2xl ">

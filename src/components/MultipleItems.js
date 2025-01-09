@@ -18,7 +18,8 @@ function Responsive() {
                img: Report,
                urlGit: 'https://github.com/VitorHSilver/order-report',
                url: '#',
-               description: 'Projeto desktop de inserção de dados para relatorio de venda.',
+               description:
+                    'Projeto desktop de inserção de dados para relatorio de venda. Utilizando Vue.Js e Electron',
           },
           {
                name: 'NewsTech',
@@ -115,7 +116,9 @@ function Responsive() {
                               className="card bg-gray-400/10 max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border border-gray-50 rounded-lg p-6 m-2 max-smartphone:bg-gray-300/10 "
                          >
                               <a href={project.urlGit} className="text-center w-full" target="_blank" rel="noreferrer">
-                                   <h5 className="text-lg font-semibold mb-2 text-center max-smallscreen:text-3xl">{project.name}</h5>
+                                   <h5 className="text-lg font-semibold mb-2 text-center max-smallscreen:text-3xl">
+                                        {project.name}
+                                   </h5>
                                    <p className="text-xs text-jusfify py-4 font-medium itali h-24 max-smallscreen:text-lg">
                                         {project.description}
                                    </p>

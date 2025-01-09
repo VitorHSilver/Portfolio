@@ -50,8 +50,8 @@ const skills = [
 function experience() {
      return (
           <section
-               aria-label="#experiencia"
-               id="experiencia"
+               aria-label="#experience"
+               id="experience"
                className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center"
           >
                <h2 className="text-9xl font-semibold text-gray-300 mb-56 max-smartphone:mb-[8rem] max-md:text-8xl max-sm:text-7xl max-smartphone:text-4xl max-smallscreen:text-6xl">

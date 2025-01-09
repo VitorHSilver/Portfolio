@@ -42,13 +42,13 @@ function Contact() {
      return (
           <section
                id="contact"
-               className="grid grid-cols-1 md:grid-cols-2 items-center py-52 max-smartphone:py-20 max-smartphone:flex flex-col gap-10 max-smallscreen:mt-4"
+               className="grid grid-cols-1 md:grid-cols-2 items-center py-28 max-smartphone:py-20 max-smartphone:flex flex-col gap-10  max-smallscreen:mt-4"
           >
                <div>
-                    <h2 className="text-9xl font-semibold text-gray-300 mb-12 max-smallscreen:mb-[2rem] max-md:text-7xl max-sm:text-6xl max-smartphone:text-4xl max-sm:mb-0 max-sm:mt-20 max-smallscreen:text-center max-smartphone:text-center max-smallscreen:text-6xl">
+                    <h2 className="text-9xl font-semibold text-gray-300 mb-12  max-smallscreen:mb-[2rem] max-smartphone:text-4xl max-md:text-center max-md:text-7xl max-sm:mb-0 max-sm:mt-20 max-smallscreen:text-center max-smartphone:text-center max-smallscreen:text-6xl ">
                          Contato
                     </h2>
-                    <div className="flex justify-evenly w-full max-w-md pt-4 gap-6  max-smallscreen:py-4">
+                    <div className="flex justify-evenly w-full max-w-md pt-4 gap-6  max-md:py-8 max-smallscreen:py-4 max-md:m-auto ">
                          <a href="https://github.com/VitorHSilver" target="_blank" rel="noreferrer">
                               <img
                                    className="w-12 h-12 transition ease hover:scale-125 duration-300"
@@ -85,10 +85,10 @@ function Contact() {
                     </div>
                </div>
                <div>
-                    <h1 className="text-5xl font-semibold text-gray-300 mb-4 max-smallscreen:text-center max-smallscreen:m-4">
+                    <h1 className="text-5xl font-semibold text-gray-300 mb-4 max-md:text-center  max-smallscreen:text-center  max-smallscreen:m-4">
                          Formulário
                     </h1>
-                    <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
+                    <form className="flex flex-col gap-4 max-sm:p-8 max-md:p-4" onSubmit={handleSubmit}>
                          <input
                               type="text"
                               placeholder="Nome"
