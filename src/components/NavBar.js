@@ -17,9 +17,9 @@ function NavBar() {
      };
 
      return (
-          <div className="font-semibold mt-10 mb-14 max-smartphone:mb-4 max-smallscreen:mb-4  ">
-               <div className="flex items-center justify-between max-[250px]:pr-2  max-[300px]:w-full ">
-                    <img src={logo} alt="logo" className="mb-2  max-[400px]:justify-self-center" />
+          <div className="font-semibold mt-10 mb-14 max-smartphone:mb-4 max-smallscreen:mb-4">
+               <div className="flex items-center justify-between max-[250px]:pr-2 max-[300px]:w-full ">
+                    <img src={logo} alt="logo" className="mb-2 max-[400px]:justify-self-center" />
 
                     <button className="block md:hidden p-2 rounded-md focus:outline-none " onClick={toggleMobileMenu}>
                          <img
