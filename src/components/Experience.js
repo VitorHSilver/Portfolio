@@ -52,7 +52,7 @@ function experience() {
           <section
                aria-label="#experience"
                id="experience"
-               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32 max-smartphone:px-6"
+               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32 max-md:px-2"
           >
                <h2 className="text-9xl  max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-56 max-smartphone:mb-[8rem] max-md:text-8xl  max-md:pl-2">
                     Experiência
@@ -70,8 +70,8 @@ function experience() {
                <span className="inline-block mt-16 text-sm pl-4 text-gray-500  max-smartphone:mt-96 max-smallscreen:text-xl max-smallscreen:mt-10">
                     2024
                </span>
-               <div className="max-smallscreen:bg-transparent max-smallscreen:shadow-none grid grid-cols-2 p-6 shadow-lg max-lg:w-full mr-1 gap-x-1 absolute max-lg:mt-[3rem] max-md:w-full pl-10 max-smartphone:grid-cols-1 max-md:gap-4">
-                    <h3 className="text-2xl font-semibold">Exata Tech</h3>
+               <div className="max-smallscreen:bg-transparent max-smallscreen:shadow-none grid grid-cols-2 p-6 shadow-lg max-lg:w-full mr-1 gap-x-1 absolute max-lg:mt-[3rem] max-md:w-full pl-10 max-smartphone:grid-cols-1 max-md:gap-4 max-smartphone:px-4">
+                    <h3 className="text-2xl font-semibold ">Exata Tech</h3>
                     <span className="block text-sm font-semibold text-gray-900 mb-4 mt-1 uppercase text-center">
                          Estagiário em desenvolvimento web
                     </span>

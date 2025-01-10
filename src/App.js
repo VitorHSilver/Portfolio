@@ -11,7 +11,7 @@ import ScrollButton from './components/ScrollButton';
 function App() {
      return (
           <>
-               <div className='smartphone:p-10'>
+               <div className=''>
                     <NavBar />
                     <Introduction />
                     <Experience />
