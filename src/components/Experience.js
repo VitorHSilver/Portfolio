@@ -52,12 +52,12 @@ function experience() {
           <section
                aria-label="#experience"
                id="experience"
-               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32"
+               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32 max-smartphone:px-6"
           >
                <h2 className="text-9xl  max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-56 max-smartphone:mb-[8rem] max-md:text-8xl  max-md:pl-2">
                     Experiência
                </h2>
-               <div className="w-1/2 flex text-right mb-60 absolute right-4 top-20 max-md:w-full max-md:text-left max-md:pl-4 max-sm:w-full max-sm:top-32 max max-smallscreen:left-10 max-md:top-24">
+               <div className="w-1/2 flex text-right mb-60 absolute right-4 top-20 max-md:w-full max-md:text-left max-md:pl-4 max-sm:w-full max-sm:top-32 max max-smallscreen:left-10 max-md:top-24 max-smartphone:left-2 max-smartphone:top-20">
                     <p className="leading-relaxed max-w-prose relative  mt-36 max-smallscreen:text-base max-smallscreen:leading-relaxed subpixel-antialiased max-smallscreen:text-start max-smallscreen:mt-0 max-smallscreen:base max-md:pl-4">
                          Minha experiência inclui o desenvolvimento de aplicações no back-end utilizando tecnologias
                          como
