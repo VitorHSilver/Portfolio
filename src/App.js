@@ -11,14 +11,16 @@ import ScrollButton from './components/ScrollButton';
 function App() {
      return (
           <>
-               <NavBar />
-               <Introduction />
-               <Experience />
-               <Formation />
-               <Project />
-               <Contact />
-               <Footer />
-               <ScrollButton />
+               <div className='smartphone:p-10'>
+                    <NavBar />
+                    <Introduction />
+                    <Experience />
+                    <Formation />
+                    <Project />
+                    <Contact />
+                    <Footer />
+                    <ScrollButton />
+               </div>
           </>
      );
 }
