@@ -4,6 +4,7 @@ import git from './../assets/github-logo.png';
 import linkedin from './../assets/logotipo-do-linkedin.png';
 import mail from './../assets/mail.png';
 import download from './../assets/download-svgrepo-com.svg';
+import DownloadButton from './DownloadButtonAnimation';
 
 function Contact() {
      const [name, setName] = useState('');
@@ -70,18 +71,7 @@ function Contact() {
                                    alt="Email"
                               ></img>
                          </a>
-                         <a
-                              href="/Vitor_henrique _da_Silva_2025.pdf"
-                              download="Vitor_Henrique_da_Silva_Curriculo.pdf"
-                              target="_blank"
-                              rel="noreferrer"
-                         >
-                              <img
-                                   className="w-12 h-12 transition ease hover:scale-125 duration-300"
-                                   src={download}
-                                   alt="Download"
-                              />
-                         </a>
+                         <DownloadButton />
                     </div>
                </div>
                <div>
