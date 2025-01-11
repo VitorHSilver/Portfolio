@@ -55,6 +55,12 @@ const DownloadButton = () => {
                                    [21, 6],
                               ]);
                          }, duration / 2);
+                         setTimeout(() => {
+                              button.classList.remove('loading');
+                              svg.innerHTML = getPath(20, 0, null);
+                              svgPath.y = 20;
+                              svgPath.smoothing = 0;
+                         }, duration + 2000);
                     }
                });
           });
