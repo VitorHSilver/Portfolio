@@ -4,7 +4,7 @@ function Formation() {
      return (
           <section
                id="formation"
-               className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[40rem] max-sm:py-0 max-smartphone:mt-[32rem] max-smallscreen:py-0 max-lg:mt-[32rem] max-smallscreen:mt-[20rem]  max-smartphone:p-6 "
+               className="bg-black w-full mt-80 py-14 text-gray-100/25 max-sm:mt-[40rem] max-sm:py-0 max-smartphone:mt-[32rem] max-smallscreen:py-0 max-lg:mt-[32rem] max-smallscreen:mt-[20rem]  max-smartphone:p-6 max-md:w-full"
           >
                <div className="p-8">
                     <h2 className="text-9xl  max-sm:text-7xl max-smallscreen:text-6xl font-semibold mb-12   max-sm:mt-24  max-smallscreen:mb-[4rem]">
