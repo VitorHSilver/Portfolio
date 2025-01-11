@@ -11,3 +11,6 @@ Este é o meu portfólio pessoal, onde apresento minhas habilidades e experiênc
 -    React
 -    Tailwind CSS
 -    EmailJs
+-    Motion
+-    React-spring
+-    React-intersection-observer
