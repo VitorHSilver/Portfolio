@@ -71,7 +71,7 @@ function Contact() {
                               ></img>
                          </a>
                          <a
-                              href="./../../public/Vitor_henrique _da_Silva_2025.pdf"
+                              href="/Vitor_henrique _da_Silva_2025.pdf"
                               download="Vitor_Henrique_da_Silva_Curriculo.pdf"
                               target="_blank"
                               rel="noreferrer"
