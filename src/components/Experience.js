@@ -52,7 +52,7 @@ function experience() {
           <section
                aria-label="#experience"
                id="experience"
-               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32 max-md:px-2"
+               className="grid-cols-custom-layout max-smartphone:mt-24  relative  max-smallscreen:mt-1 py-16 max-smallscreen:text-center mt-32"
           >
                <h2 className="text-9xl  max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-56 max-smartphone:mb-[8rem] max-md:text-8xl  max-md:pl-2">
                     Experiência
