@@ -95,7 +95,7 @@ const DownloadButton = () => {
 
      return (
           <a
-               href="/Vitor_henrique_da_Silva_2025.pdf"
+               href="https://drive.google.com/file/d/1AjRRpha6woDFSfhDl9tMpRZFcN_9nJZk/view?usp=drive_link"
                download="Vitor_Henrique_da_Silva_Curriculo.pdf"
                target="_blank"
                rel="noreferrer"
