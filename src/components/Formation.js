@@ -1,6 +1,12 @@
 import React from 'react';
+import NumberAnimation from './NumberAnimation';
+import { useInView } from 'react-intersection-observer';
 
 function Formation() {
+     const [ref, inView] = useInView({
+          triggerOnce: true, // Anima apenas uma vez
+          threshold: 0.1, // Anima quando 10% do elemento está visível
+     });
      return (
           <section
                id="formation"
@@ -52,18 +58,22 @@ function Formation() {
                          <h3 className="text-gray-100/50 text-5xl font-semibold text-center max-sm:mb-10 max-smallscreen:text-4xl max-sm:text-4xl">
                               Cursos
                          </h3>
-                         <div className="flex flex-col items-center mt-8 text-center ">
+                         <div ref={ref} className="flex flex-col items-center mt-8 text-center ">
                               <div className="grid grid-cols-2 gap-4 w-3/4">
                                    <p className="text-gray-100 max-smartphone:text-start max-md:text-start max-sm:text-base">
                                         UX Design & UI Design
                                    </p>
-                                   <p className="max-smartphone:text-end max-sm:text-sm">34h</p>
+                                   <p className="max-smartphone:text-end max-sm:text-sm inline-flex items-center justify-center">
+                                        {inView && <NumberAnimation n={34} />}h
+                                   </p>
                               </div>
                               <div className="grid grid-cols-2 gap-4 w-3/4 mt-4 max-sm:mb-24">
                                    <p className="text-gray-100 max-smartphone:text-start max-md:text-start max-sm:text-base">
                                         AWS Academy Cloud Foundations
                                    </p>
-                                   <p className="max-smartphone:text-end max-sm:text-sm">20h</p>
+                                   <p className="max-smartphone:text-end max-sm:text-sm inline-flex items-center justify-center">
+                                        {inView && <NumberAnimation n={20} />}h
+                                   </p>
                               </div>
                          </div>
                     </div>
