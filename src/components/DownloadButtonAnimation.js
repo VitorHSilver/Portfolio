@@ -97,7 +97,6 @@ const DownloadButton = () => {
           <a
                href="https://drive.usercontent.google.com/u/0/uc?id=1AjRRpha6woDFSfhDl9tMpRZFcN_9nJZk&export=download"
                download="Vitor_Henrique_da_Silva_Curriculo.pdf"
-               target="_blank"
                rel="noreferrer"
                className="button dark-single w-12 h-12 items-center transition ease hover:scale-125 duration-300"
           >
