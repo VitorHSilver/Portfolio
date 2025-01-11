@@ -134,7 +134,7 @@ function Responsive() {
                                              href={project.urlGit}
                                              target="_blank"
                                              rel="noreferrer"
-                                             className="bg-emerald-600 hover:bg-emerald-800 transition ease-in-out duration-700   hover:scale-105 text-white p-2 rounded text-center max-smartphone:mt-4"
+                                             className="rounded-lg px-4 py-2 border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-green-100 duration-300"
                                         >
                                              Github
                                         </a>
@@ -143,9 +143,9 @@ function Responsive() {
                                                   href={project.url}
                                                   target="_blank"
                                                   rel="noreferrer"
-                                                  className="p-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                                                  className="rounded-lg px-4 py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-blue-100 duration-300"
                                              >
-                                                  Site
+                                                  Deploy
                                              </a>
                                         )}
                                    </div>
