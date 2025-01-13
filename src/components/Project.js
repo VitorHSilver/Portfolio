@@ -4,7 +4,7 @@ import MultipleItems from './MultipleItems';
 function Project() {
      return (
           <section id="projects" className="flex flex-col items-center justify-start py-20 max-smallscreen:mt-4  ">
-               <h2 className="text-9xl max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-12 max-smartphone:mb-[0rem] max-md:text-6xl  max-smartphone:text-4xl  max-sm:mb-0 max-md:mt-20">
+               <h2 className="text-9xl max-sm:text-7xl max-smallscreen:text-6xl font-semibold text-gray-300 mb-12 max-smartphone:mb-[0rem] max-md:text-6xl  max-smartphone:text-4xl  max-sm:mb-0 max-md:mt-20 ">
                     Projetos
                </h2>
                <div>

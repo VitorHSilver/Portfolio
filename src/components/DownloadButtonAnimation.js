@@ -104,7 +104,7 @@ const DownloadButton = () => {
                href="https://drive.usercontent.google.com/u/0/uc?id=1AjRRpha6woDFSfhDl9tMpRZFcN_9nJZk&export=download"
                download="Vitor_Henrique_da_Silva_Curriculo.pdf"
                rel="noreferrer"
-               className="button dark-single w-12 h-10 items-center transition ease hover:scale-125 duration-300 self-center"
+               className="button dark-single w-12 h-10 items-center transition ease hover:scale-125 duration-300 self-center dark:bg-white dark:rounded-full"
           >
                <div>
                     <svg viewBox="0 0 24 24"></svg>

@@ -14,7 +14,7 @@ import 'slick-carousel/slick/slick-theme.css';
 function Responsive() {
      const projets = [
           {
-               name: 'ReportOrder',
+               name: 'OrderReport',
                img: Report,
                urlGit: 'https://github.com/VitorHSilver/order-report',
                url: '#',
@@ -113,7 +113,7 @@ function Responsive() {
                     {projets.map((project, index) => (
                          <div
                               key={index}
-                              className="card bg-gray-400/10 max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border border-gray-50 rounded-lg p-6 m-2 max-smartphone:bg-gray-300/10 "
+                              className="card bg-gray-400/10 dark:bg-gray-100/80  max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border-2 border-gray-900  rounded-lg p-6 m-2 max-smartphone:bg-gray-300/10 "
                          >
                               <a href={project.urlGit} className="text-center w-full" target="_blank" rel="noreferrer">
                                    <h5 className="text-lg font-semibold mb-2 text-center max-smallscreen:text-3xl">
@@ -143,7 +143,7 @@ function Responsive() {
                                                   href={project.url}
                                                   target="_blank"
                                                   rel="noreferrer"
-                                                  className="rounded-lg px-4 py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-blue-100 duration-300"
+                                                  className="rounded-lg px-4 py-2 bg-transparent border border-gray-600 hover:bg-gray-700/10 duration-300"
                                              >
                                                   Deploy
                                              </a>

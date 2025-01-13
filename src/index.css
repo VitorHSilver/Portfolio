@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#list li:last-child {
+     margin-right: auto;
+     
+}
 #bloco1 {
      position: relative;
 }
@@ -10,7 +14,7 @@
      display: block;
      width: 10px;
      height: 6px;
-     background: linear-gradient(#93b8ad, #6ee7b7);
+     background: linear-gradient(#39515C, #4da873);
      position: absolute;
      top: 50%;
      left: -6px;
@@ -24,9 +28,24 @@
      display: block;
      width: 10px;
      height: 6px;
-     background: linear-gradient(#ecfdf5, #6ee7b7);
+     background: linear-gradient(#4da873, #39515C);
      position: absolute;
      top: 50%;
      right: -6px;
      border-radius: 20%;
 }
+.light {
+     --bg-color: #fff;
+     --text-color: #000000;
+     --hover-color: #495D3A;
+   }
+   
+   .dark {
+     --bg-color: #000000;
+     --text-color: #fff;
+
+   }
+   #main {
+     background-color: var(--bg-color);
+     color: var(--text-color);
+   }

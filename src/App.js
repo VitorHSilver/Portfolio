@@ -8,10 +8,11 @@ import Contact from './components/Contact';
 import './index.css'; // Importa o arquivo CSS do Tailwind
 import Footer from './components/Footer';
 import ScrollButton from './components/ScrollButton';
+import { ThemeProvider } from './context/ThemeContext';
 function App() {
      return (
           <>
-               <div className=''>
+               <ThemeProvider>
                     <NavBar />
                     <Introduction />
                     <Experience />
@@ -20,7 +21,7 @@ function App() {
                     <Contact />
                     <Footer />
                     <ScrollButton />
-               </div>
+               </ThemeProvider>
           </>
      );
 }

@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import emailjs from 'emailjs-com';
 import git from './../assets/github-logo.png';
+import gitDark from './../assets/github-logo2.png';
 import linkedin from './../assets/logotipo-do-linkedin.png';
 import mail from './../assets/mail.png';
-import download from './../assets/download-svgrepo-com.svg';
 import DownloadButton from './DownloadButtonAnimation';
+import { ThemeContext } from '../context/ThemeContext';
 
 function Contact() {
      const [name, setName] = useState('');
      const [email, setEmail] = useState('');
      const [message, setMessage] = useState('');
+
+     const { theme } = useContext(ThemeContext);
 
      const handleSubmit = (e) => {
           e.preventDefault();
@@ -52,21 +55,21 @@ function Contact() {
                     <div className="flex justify-evenly w-full max-w-md pt-4 gap-6  max-md:py-8 max-smallscreen:py-4 max-md:m-auto ">
                          <a href="https://github.com/VitorHSilver" target="_blank" rel="noreferrer">
                               <img
-                                   className="w-12 h-12 transition ease hover:scale-125 duration-300"
+                                   className="w-12 h-12 transition ease hover:scale-125 duration-300 dark:bg-gray-100/80 dark:rounded-full"
                                    src={git}
                                    alt="GitHub"
                               ></img>
                          </a>
                          <a href="https://www.linkedin.com/in/vitor-hsilver/" target="_blank" rel="noreferrer">
                               <img
-                                   className="w-12 h-12 transition ease hover:scale-125 duration-300"
+                                   className="w-12 h-12 transition ease hover:scale-125 duration-300 dark:bg-gray-100/80 dark:rounded-full"
                                    src={linkedin}
                                    alt="LinkedIn"
                               ></img>
                          </a>
                          <a href="mailto:vitor-henrique1996@hotmail.com">
                               <img
-                                   className="w-12 h-12 transition ease hover:scale-125 duration-300"
+                                   className="w-12 h-12 transition ease hover:scale-125 duration-300 dark:bg-gray-100/80 dark:rounded-full"
                                    src={mail}
                                    alt="Email"
                               ></img>
@@ -102,7 +105,7 @@ function Contact() {
                          ></textarea>
                          <button
                               type="submit"
-                              className="p-2 rounded-lg px-4 py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-blue-100 duration-300"
+                              className="p-2  border-2 rounded-lg px-4 py-2 bg-gray-600/10 hover:bg-gray-300 duration-300"
                          >
                               Enviar
                          </button>

@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
      content: ['./src/**/*.{js,jsx,ts,tsx}'],
+     darkMode: 'class',
      theme: {
           extend: {
                colors: {
                     crocoGreen: '#495D3A',
                     bgBlack: '#090909',
+                    darkColor: '#39515C',
+                    darkBG: '#d1d5db',
                },
                gridTemplateColumns: {
                     'custom-layout': '1fr 2fr',
