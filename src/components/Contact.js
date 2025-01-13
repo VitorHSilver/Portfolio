@@ -1,7 +1,6 @@
 import React, { useState, useContext } from 'react';
 import emailjs from 'emailjs-com';
 import git from './../assets/github-logo.png';
-import gitDark from './../assets/github-logo2.png';
 import linkedin from './../assets/logotipo-do-linkedin.png';
 import mail from './../assets/mail.png';
 import DownloadButton from './DownloadButtonAnimation';

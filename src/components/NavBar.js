@@ -21,7 +21,7 @@ function NavBar() {
      };
 
      return (
-          <div className="font-semibold mt-10 mb-14 max-smartphone:mb-4 max-smallscreen:mb-4 max-smartphone:p-8">
+          <div className="font-semibold mt-10 mb-14 max-smartphone:mb-4 max-smallscreen:mb-4 max-smartphone:p-8 max-sm:mr-8">
                <span className="flex justify-end mb-2">
                     <ThemeToggle />
                </span>
@@ -32,7 +32,10 @@ function NavBar() {
                          className="mb-2 max-[400px]:justify-self-center"
                     />
 
-                    <button className="block md:hidden p-2 rounded-md focus:outline-none dark:bg-white" onClick={toggleMobileMenu}>
+                    <button
+                         className="block md:hidden p-2 rounded-md focus:outline-none dark:bg-white"
+                         onClick={toggleMobileMenu}
+                    >
                          <img
                               className="w-6 h-6"
                               src={isMobileMenuOpen ? close : mobile}
