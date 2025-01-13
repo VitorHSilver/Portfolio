@@ -32,7 +32,7 @@ function NavBar() {
                          className="mb-2 max-[400px]:justify-self-center"
                     />
 
-                    <button className="block md:hidden p-2 rounded-md focus:outline-none " onClick={toggleMobileMenu}>
+                    <button className="block md:hidden p-2 rounded-md focus:outline-none dark:bg-white" onClick={toggleMobileMenu}>
                          <img
                               className="w-6 h-6"
                               src={isMobileMenuOpen ? close : mobile}

@@ -113,7 +113,7 @@ function Responsive() {
                     {projets.map((project, index) => (
                          <div
                               key={index}
-                              className="card bg-gray-400/10 dark:bg-gray-100/80  max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border-2 border-gray-900  rounded-lg p-6 m-2 max-smartphone:bg-gray-300/10 "
+                              className="card bg-gray-400/10 dark:bg-gray-100/80  max-md:bg-gray-100/10 max-md:border-none  shadow-sm flex flex-col justify-between items-center border-2 max-smartphone:bg-pink-400 border-white dark:border-gray-900  rounded-lg p-6 m-2 max-smartphone:bg-gray-300/10 "
                          >
                               <a href={project.urlGit} className="text-center w-full" target="_blank" rel="noreferrer">
                                    <h5 className="text-lg font-semibold mb-2 text-center max-smallscreen:text-3xl">
