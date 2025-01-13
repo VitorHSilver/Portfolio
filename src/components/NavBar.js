@@ -21,7 +21,7 @@ function NavBar() {
      };
 
      return (
-          <div className="font-semibold mt-10 mb-14 max-smartphone:mb-4 max-smallscreen:mb-4 max-smartphone:p-8 max-sm:mr-8">
+          <div className="font-semibold mt-10 mb-14 max-smartphone:mb-4 max-smallscreen:mb-4 max-smartphone:p-8 max-sm:mr-12 max-md:mr-10">
                <span className="flex justify-end mb-2">
                     <ThemeToggle />
                </span>

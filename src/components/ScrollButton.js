@@ -28,7 +28,7 @@ const ScrollButton = () => {
           <Button>
                <FaArrowCircleUp
                     onClick={scrollToTop}
-                    className="text-black mb-4 transition ease-in-out hover:scale-125 duration-150"
+                    className="text-black mb-4 transition ease-in-out hover:scale-125 duration-150 dark:text-white"
                     style={{ display: visible ? 'inline' : 'none' }}
                />
           </Button>
