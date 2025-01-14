@@ -7,6 +7,7 @@ import NewsTech from './../assets/newsTech.png';
 import Api from './../assets/api.png';
 import py from './../assets/python.png';
 import webSite from './../assets/siteMobile.png';
+import java from './../assets/java.png';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -48,7 +49,7 @@ function Responsive() {
                img: Tseek,
                urlGit: 'https://github.com/TseekPIM/tseek',
                url: '#',
-               description: 'Projeto academico de TCC que age intermediando um player a encontrar uma equipe E-Sport.',
+               description: 'Projeto academico de TCC em PHP que age intermediando um player a encontrar uma equipe E-Sport.',
           },
           {
                name: 'AnalysManufact',
@@ -66,11 +67,11 @@ function Responsive() {
                description: 'Pagina simples mostrando o comportamento do menuMobile',
           },
           {
-               name: 'Project 8',
-               img: '',
-               urlGit: '#',
+               name: 'DsList',
+               img: java,
+               urlGit: 'https://github.com/VitorHSilver/dslist',
                url: '#',
-               description: 'Em breve será adicionado um novo projeto aqui',
+               description: 'A API de sistema de coleção de jogos, podendo ser alterados de ordem ao arrastar.',
           },
      ];
      var settings = {

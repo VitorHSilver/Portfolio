@@ -9,7 +9,7 @@ function Introduction() {
                          id="foto"
                          src={vitor}
                          alt="Vitor"
-                         className="w-64 max-smallscreen:hidden max-[250px]:hidden"
+                         className="w-64 max-smallscreen:hidden max-[250px]:hidden "
                          initial={{ opacity: 0, x: -100 }}
                          animate={{ opacity: 1, x: 0 }}
                          transition={{ duration: 1 }}
@@ -20,7 +20,7 @@ function Introduction() {
                               Vitor Henrique
                          </h1>
                          <h1 className="font-bold text-6xl max-md:text-4xl max-smartphone:text-2xl">
-                              Desenvolvedor<br></br>Web
+                              Desenvolvedor<br></br>Web 
                          </h1>
                     </div>
                </main>
