@@ -1,6 +1,7 @@
 import React from 'react';
 import vitor from './../assets/vitor.png';
 import { motion } from 'framer-motion';
+import TypingAnimation from './TypingAnimation';
 function Introduction() {
      return (
           <>
@@ -20,7 +21,7 @@ function Introduction() {
                               Vitor Henrique
                          </h1>
                          <h1 className="font-bold text-6xl max-md:text-4xl max-smartphone:text-2xl">
-                              Desenvolvedor<br></br>Web 
+                              <TypingAnimation text="Desenvolvedor Web" interval={150} />
                          </h1>
                     </div>
                </main>
